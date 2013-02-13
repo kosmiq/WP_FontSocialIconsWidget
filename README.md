@@ -6,3 +6,5 @@ This will use Zurbs awesome Foundation Icons instead (http://www.zurb.com/playgr
 The PHP-code is somewhat based on previous work by Nathan Rice for Studiopress and their Simple Social Icons plugin/widget.
 
 Feel free to base any work you perform on this.
+
+To see the widget in action please visit http://rgrid.rsldev.se, all social icons are displayed using the widget.
