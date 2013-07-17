@@ -88,104 +88,104 @@ class Font_Social_Icons_Widget extends WP_Widget {
 		$this->profiles = array(
 			'rss' => array(
 				'label'	  => __( 'RSS URI', 'fsiw' ),
-				'pattern' => '<li><a class="foundicon-rss" href="%s" %s></a></li>'
+				'pattern' => '<li><a title="RSS" class="foundicon-rss" href="%s" %s></a></li>'
 			),
 			'twitter' => array(
 				'label'	  => __( 'Twitter URI', 'fsiw' ),
-				'pattern' => '<li><a class="foundicon-twitter" href="%s" %s></a></li>'
+				'pattern' => '<li><a title="Twitter" class="foundicon-twitter" href="%s" %s></a></li>'
 			),
 			'facebook' => array(
 				'label'	  => __( 'Facebook URI', 'fsiw' ),
-				'pattern' => '<li><a class="foundicon-facebook" href="%s" %s></a></li>'
+				'pattern' => '<li><a title="Facebook" class="foundicon-facebook" href="%s" %s></a></li>'
 			),
 			'linkedin' => array(
 				'label'	  => __( 'Linkedin URI', 'fsiw' ),
-				'pattern' => '<li><a class="foundicon-linkedin" href="%s" %s></a></li>'
+				'pattern' => '<li><a title="LinkedIn" class="foundicon-linkedin" href="%s" %s></a></li>'
 			),
 			'gplus' => array(
 				'label'	  => __( 'Google+ URI', 'fsiw' ),
-				'pattern' => '<li><a class="foundicon-google-plus" href="%s" %s></a></li>'
+				'pattern' => '<li><a title="Google+" class="foundicon-google-plus" href="%s" %s></a></li>'
 			),
 			'pinterest' => array(
 				'label'	  => __( 'Pinterest URI', 'fsiw' ),
-				'pattern' => '<li><a class="foundicon-pinterest" href="%s" %s></a></li>'
+				'pattern' => '<li><a title="Pinterest" class="foundicon-pinterest" href="%s" %s></a></li>'
 			),
 			'youtube' => array(
 				'label'	  => __( 'Youtube URI', 'fsiw' ),
-				'pattern' => '<li><a class="foundicon-youtube" href="%s" %s></a></li>'
+				'pattern' => '<li><a title="Youtube" class="foundicon-youtube" href="%s" %s></a></li>'
 			),
 			'vimeo' => array(
 				'label'	  => __( 'Vimeo URI', 'fsiw' ),
-				'pattern' => '<li><a class="foundicon-vimeo" href="%s" %s></a></li>'
+				'pattern' => '<li><a title="Vimeo" class="foundicon-vimeo" href="%s" %s></a></li>'
 			),
 			'tumblr' => array(
 				'label'	  => __( 'Tumblr URI', 'fsiw' ),
-				'pattern' => '<li><a class="foundicon-tumblr" href="%s" %s></a></li>'
+				'pattern' => '<li><a title="Tumblr" class="foundicon-tumblr" href="%s" %s></a></li>'
 			),
-      'github' => array(
-        'label'   => __( 'GitHub URI', 'fsiw' ),
-        'pattern' => '<li><a class="foundicon-github" href="%s" %s></a></li>'
-      ),
-      'path' => array(
-        'label'   => __( 'Path URI', 'fsiw' ),
-        'pattern' => '<li><a class="foundicon-path" href="%s" %s></a></li>'
-      ),
-      'dribbble' => array(
-        'label'   => __( 'Dribbble URI', 'fsiw' ),
-        'pattern' => '<li><a class="foundicon-dribbble" href="%s" %s></a></li>'
-      ),
-      'stumbleupon' => array(
-        'label'   => __( 'StumbleUpon URI', 'fsiw' ),
-        'pattern' => '<li><a class="foundicon-stumble-upon" href="%s" %s></a></li>'
-      ),
-      'behance' => array(
-        'label'   => __( 'Behance URI', 'fsiw' ),
-        'pattern' => '<li><a class="foundicon-behance" href="%s" %s></a></li>'
-      ),
-      'reddit' => array(
-        'label'   => __( 'Reddit URI', 'fsiw' ),
-        'pattern' => '<li><a class="foundicon-reddit" href="%s" %s></a></li>'
-      ),
-      'flickr' => array(
-        'label'   => __( 'Flickr URI', 'fsiw' ),
-        'pattern' => '<li><a class="foundicon-flickr" href="%s" %s></a></li>'
-      ),
-      'slideshare' => array(
-        'label'   => __( 'Slideshare URI', 'fsiw' ),
-        'pattern' => '<li><a class="foundicon-slideshare" href="%s" %s></a></li>'
-      ),
-      'picasa' => array(
-        'label'   => __( 'Picasa URI', 'fsiw' ),
-        'pattern' => '<li><a class="foundicon-picassa" href="%s" %s></a></li>'
-      ),
-      'skype' => array(
-        'label'   => __( 'Skype URI', 'fsiw' ),
-        'pattern' => '<li><a class="foundicon-skype" href="%s" %s></a></li>'
-      ),
-      'steam' => array(
-        'label'   => __( 'Steam URI', 'fsiw' ),
-        'pattern' => '<li><a class="foundicon-steam" href="%s" %s></a></li>'
-      ),
-      'instagram' => array(
-        'label'   => __( 'Instagram URI', 'fsiw' ),
-        'pattern' => '<li><a class="foundicon-instagram" href="%s" %s></a></li>'
-      ),
-      'foursquare' => array(
-        'label'   => __( 'Foursquare URI', 'fsiw' ),
-        'pattern' => '<li><a class="foundicon-foursquare" href="%s" %s></a></li>'
-      ),
-      'delicious' => array(
-        'label'   => __( 'Delicious URI', 'fsiw' ),
-        'pattern' => '<li><a class="foundicon-delicious" href="%s" %s></a></li>'
-      ),
-      'digg' => array(
-        'label'   => __( 'Digg URI', 'fsiw' ),
-        'pattern' => '<li><a class="foundicon-digg" href="%s" %s></a></li>'
-      ),
-      'wordpress' => array(
-        'label'   => __( 'Wordpress URI', 'fsiw' ),
-        'pattern' => '<li><a class="foundicon-wordpress" href="%s" %s></a></li>'
-      ),
+			'github' => array(
+				'label'   => __( 'GitHub URI', 'fsiw' ),
+				'pattern' => '<li><a title="Github" class="foundicon-github" href="%s" %s></a></li>'
+			),
+			'path' => array(
+				'label'   => __( 'Path URI', 'fsiw' ),
+				'pattern' => '<li><a title="Path" class="foundicon-path" href="%s" %s></a></li>'
+			),
+			'dribbble' => array(
+				'label'   => __( 'Dribbble URI', 'fsiw' ),
+				'pattern' => '<li><a title="Dribble" class="foundicon-dribbble" href="%s" %s></a></li>'
+			),
+			'stumbleupon' => array(
+				'label'   => __( 'StumbleUpon URI', 'fsiw' ),
+				'pattern' => '<li><a title="StumbleUpon" class="foundicon-stumble-upon" href="%s" %s></a></li>'
+			),
+			'behance' => array(
+				'label'   => __( 'Behance URI', 'fsiw' ),
+				'pattern' => '<li><a title="Behance" class="foundicon-behance" href="%s" %s></a></li>'
+			),
+			'reddit' => array(
+				'label'   => __( 'Reddit URI', 'fsiw' ),
+				'pattern' => '<li><a title="Reddit" class="foundicon-reddit" href="%s" %s></a></li>'
+			),
+			'flickr' => array(
+				'label'   => __( 'Flickr URI', 'fsiw' ),
+				'pattern' => '<li><a title="Flickr" class="foundicon-flickr" href="%s" %s></a></li>'
+			),
+			'slideshare' => array(
+				'label'   => __( 'Slideshare URI', 'fsiw' ),
+				'pattern' => '<li><a title="Slideshare" class="foundicon-slideshare" href="%s" %s></a></li>'
+			),
+			'picasa' => array(
+				'label'   => __( 'Picasa URI', 'fsiw' ),
+				'pattern' => '<li><a title="Picasa" class="foundicon-picassa" href="%s" %s></a></li>'
+			),
+			'skype' => array(
+				'label'   => __( 'Skype URI', 'fsiw' ),
+				'pattern' => '<li><a title="Skype" class="foundicon-skype" href="%s" %s></a></li>'
+			),
+			'steam' => array(
+				'label'   => __( 'Steam URI', 'fsiw' ),
+				'pattern' => '<li><a title="Steam" class="foundicon-steam" href="%s" %s></a></li>'
+			),
+			'instagram' => array(
+				'label'   => __( 'Instagram URI', 'fsiw' ),
+				'pattern' => '<li><a title="Instgram" class="foundicon-instagram" href="%s" %s></a></li>'
+			),
+			'foursquare' => array(
+				'label'   => __( 'Foursquare URI', 'fsiw' ),
+				'pattern' => '<li><a title="Foursquare" class="foundicon-foursquare" href="%s" %s></a></li>'
+			),
+			'delicious' => array(
+				'label'   => __( 'Delicious URI', 'fsiw' ),
+				'pattern' => '<li><a title="Delicious" class="foundicon-delicious" href="%s" %s></a></li>'
+			),
+			'digg' => array(
+				'label'   => __( 'Digg URI', 'fsiw' ),
+				'pattern' => '<li><a title="Digg" class="foundicon-digg" href="%s" %s></a></li>'
+			),
+			'wordpress' => array(
+				'label'   => __( 'Wordpress URI', 'fsiw' ),
+				'pattern' => '<li><a title="Wordpress" class="foundicon-wordpress" href="%s" %s></a></li>'
+			),
 		);
 
 		$widget_ops = array(
@@ -204,14 +204,14 @@ class Font_Social_Icons_Widget extends WP_Widget {
 		/** Check if the widget is active (placed) */
 		if( is_active_widget( '', '', 'font-social-icons' ) ) {
 			/** if it is active, output the CSS */
-			//wp_register_style( 'fsiw-css', plugins_url('fsiw.css', __FILE__), array(), '1.2', 'all' );
-			wp_register_style( 'fsiw-css', plugins_url('fsiw.min.css', __FILE__), array(), '1.2', 'all' );
+			//wp_register_style( 'fsiw-css', plugins_url('fsiw.css', __FILE__), array(), '1.3', 'all' );
+			wp_register_style( 'fsiw-css', plugins_url('fsiw.min.css', __FILE__), array(), '1.3', 'all' );
       wp_enqueue_style( 'fsiw-css' );
 
       /** If the browser is IE7 add the IE7 specific stylesheet */
 			$browser = $_SERVER['HTTP_USER_AGENT'];
 			if (preg_match("/MSIE 7.0/i", $browser)) {
-	    	wp_register_style( 'fsiw-css-ie7', plugins_url('fsiw_ie7.css', __FILE__), array(), '1.2', 'all' );
+	    	wp_register_style( 'fsiw-css-ie7', plugins_url('fsiw_ie7.css', __FILE__), array(), '1.3', 'all' );
 	      wp_enqueue_style( 'fsiw-css-ie7' );
 			}
 

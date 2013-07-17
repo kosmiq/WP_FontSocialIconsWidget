@@ -1,7 +1,7 @@
 @font-face{font-family:"SocialFoundicons";src:url("fonts/social_foundicons.eot");src:url("fonts/social_foundicons.eot?#iefix") format("embedded-opentype"), url("fonts/social_foundicons.woff") format("woff"), url("fonts/social_foundicons.ttf") format("truetype"), url("fonts/social_foundicons.svg#SocialFoundicons") format("svg");font-weight:normal;font-style:normal;}
 .font-social-icons{overflow:hidden;}
 .font-social-icons li{float:left;list-style-type:none;margin-bottom:0 !important;}
-.font-social-icons a{float:left;text-decoration:none;}
+.font-social-icons a{float:left;text-decoration:none;-webkit-transition:all 0.2s ease-in-out;-moz-transition:all 0.2s ease-in-out;-ms-transition:all 0.2s ease-in-out;-o-transition:all 0.2s ease-in-out;transition:all 0.2s ease-in-out;}
 .font-social-icons .onelh a{line-height:1;}
 .font-social-icons .oneandahalflh a{line-height:1.5;}
 .font-social-icons .twolh a{line-height:2;}
@@ -36,7 +36,7 @@
 .font-social-icons .pfourrem a{padding:40px;padding:4rem;}
 .font-social-icons .pfiverem a{padding:50px;padding:5rem;}
 [class*="foundicon-"]{display:inline;width:auto;height:auto;line-height:inherit;vertical-align:baseline;background-image:none;background-position:0 0;background-repeat:repeat;}
-[class*="foundicon-"]:before{font-family:"SocialFoundicons";font-weight:normal;font-style:normal;text-decoration:inherit;}
+[class*="foundicon-"]:before{font-family:"SocialFoundicons";font-weight:normal;font-style:normal;text-decoration:inherit;-webkit-transition:all 0.2s ease-in-out;-moz-transition:all 0.2s ease-in-out;-ms-transition:all 0.2s ease-in-out;-o-transition:all 0.2s ease-in-out;transition:all 0.2s ease-in-out;}
 .font-social-icons .foundicon-rss:before{content:"\f002";}
 .font-social-icons .foundicon-facebook:before{content:"\f003";}
 .font-social-icons .foundicon-twitter:before{content:"\f004";}
