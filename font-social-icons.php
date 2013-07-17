@@ -6,7 +6,7 @@ Description: Based on Nathan Rices Simple Social Icons. Uses foundation social f
 Author: Tor Raswill
 Author URI: http://tor.raswill.se/
 
-Version: 0.5.0
+Version: 1.1.0
 
 License: GNU General Public License v2.0 (or later)
 License URI: http://www.opensource.org/licenses/gpl-license.php
@@ -51,6 +51,7 @@ class Font_Social_Icons_Widget extends WP_Widget {
 			'title'					 => '',
 			'new_window'		 => 0,
 			'color_scheme'	 => 'colorful',
+			'line_height'		 => 'oneandahalflh',
 			'size'					 => 'tworem',
 			'padding'				 => 'square',
 			'alignment'			 => 'alignleft',
@@ -203,13 +204,14 @@ class Font_Social_Icons_Widget extends WP_Widget {
 		/** Check if the widget is active (placed) */
 		if( is_active_widget( '', '', 'font-social-icons' ) ) {
 			/** if it is active, output the CSS */
-			wp_register_style( 'fsiw-css', plugins_url('fsiw.css', __FILE__), array(), '1.0', 'all' );
+			//wp_register_style( 'fsiw-css', plugins_url('fsiw.css', __FILE__), array(), '1.2', 'all' );
+			wp_register_style( 'fsiw-css', plugins_url('fsiw.min.css', __FILE__), array(), '1.2', 'all' );
       wp_enqueue_style( 'fsiw-css' );
 
       /** If the browser is IE7 add the IE7 specific stylesheet */
 			$browser = $_SERVER['HTTP_USER_AGENT'];
 			if (preg_match("/MSIE 7.0/i", $browser)) {
-	    	wp_register_style( 'fsiw-css-ie7', plugins_url('fsiw_ie7.css', __FILE__), array(), '0.3', 'all' );
+	    	wp_register_style( 'fsiw-css-ie7', plugins_url('fsiw_ie7.css', __FILE__), array(), '1.2', 'all' );
 	      wp_enqueue_style( 'fsiw-css-ie7' );
 			}
 
@@ -243,13 +245,23 @@ class Font_Social_Icons_Widget extends WP_Widget {
 		</p>
 
 		<p>
+			<label for="<?php echo $this->get_field_id( 'line_height' ); ?>"><?php _e( 'Line height', 'fsiw' ); ?>:</label>
+			<select id="<?php echo $this->get_field_id( 'line_height' ); ?>" name="<?php echo $this->get_field_name( 'line_height' ); ?>">
+				<option value="onelh" <?php selected( 'onelh', $instance['line_height'] ) ?>><?php _e( '1', 'fsiw' ); ?></option>
+				<option value="oneandahalflh" <?php selected( 'oneandahalflh', $instance['line_height'] ) ?>><?php _e( '1.5', 'fsiw' ); ?></option>
+				<option value="twolh" <?php selected( 'twolh', $instance['line_height'] ) ?>><?php _e( '2', 'fsiw' ); ?></option>
+			</select>
+		</p>
+
+		<p>
 			<label for="<?php echo $this->get_field_id( 'size' ); ?>"><?php _e( 'Font Size', 'ssiw' ); ?>:</label>
 			<select id="<?php echo $this->get_field_id( 'size' ); ?>" name="<?php echo $this->get_field_name( 'size' ); ?>">
-				<option value="onerem" <?php selected( 'onerem', $instance['size'] ) ?>><?php _e( '1 rem/16px', 'fsiw' ); ?></option>
-				<option value="oneandhalfrem" <?php selected( 'oneandhalfrem', $instance['size'] ) ?>><?php _e( '1.5rem/24px', 'fsiw' ); ?></option>
-				<option value="tworem" <?php selected( 'tworem', $instance['size'] ) ?>><?php _e( '2rem/32px', 'fsiw' ); ?></option>
-				<option value="threerem" <?php selected( 'threerem', $instance['size'] ) ?>><?php _e( '3rem/48px', 'fsiw' ); ?></option>
-				<option value="fourrem" <?php selected( 'fourrem', $instance['size'] ) ?>><?php _e( '4rem/64px', 'fsiw' ); ?></option>
+				<option value="onerem" <?php selected( 'onerem', $instance['size'] ) ?>><?php _e( '1 rem/10px', 'fsiw' ); ?></option>
+				<option value="oneandhalfrem" <?php selected( 'oneandhalfrem', $instance['size'] ) ?>><?php _e( '1.5rem/15px', 'fsiw' ); ?></option>
+				<option value="tworem" <?php selected( 'tworem', $instance['size'] ) ?>><?php _e( '2rem/20px', 'fsiw' ); ?></option>
+				<option value="threerem" <?php selected( 'threerem', $instance['size'] ) ?>><?php _e( '3rem/30px', 'fsiw' ); ?></option>
+				<option value="fourrem" <?php selected( 'fourrem', $instance['size'] ) ?>><?php _e( '4rem/40px', 'fsiw' ); ?></option>
+				<option value="fiverem" <?php selected( 'fiverem', $instance['size'] ) ?>><?php _e( '5rem/50px', 'fsiw' ); ?></option>
 				?>
 			</select>
 		</p>
@@ -258,12 +270,14 @@ class Font_Social_Icons_Widget extends WP_Widget {
 		<p>
 			<label for="<?php echo $this->get_field_id( 'padding' ); ?>"><?php _e( 'Padding', 'ssiw' ); ?>:</label>
 			<select id="<?php echo $this->get_field_id( 'padding' ); ?>" name="<?php echo $this->get_field_name( 'padding' ); ?>">
+				<option value="pnone" <?php selected( 'pnone', $instance['padding'] ) ?>><?php _e( 'None', 'fsiw' ); ?></option>
 				<option value="square" <?php selected( 'square', $instance['padding'] ) ?>><?php _e( 'Square', 'fsiw' ); ?></option>
-				<option value="ponerem" <?php selected( 'ponerem', $instance['padding'] ) ?>><?php _e( '1 rem/16px', 'fsiw' ); ?></option>
-				<option value="poneandhalfrem" <?php selected( 'poneandhalfrem', $instance['padding'] ) ?>><?php _e( '1.5rem/24px', 'fsiw' ); ?></option>
-				<option value="ptworem" <?php selected( 'ptworem', $instance['padding'] ) ?>><?php _e( '2rem/32px', 'fsiw' ); ?></option>
-				<option value="pthreerem" <?php selected( 'pthreerem', $instance['padding'] ) ?>><?php _e( '3rem/48px', 'fsiw' ); ?></option>
-				<option value="pfourrem" <?php selected( 'pfourrem', $instance['padding'] ) ?>><?php _e( '4rem/64px', 'fsiw' ); ?></option>
+				<option value="ponerem" <?php selected( 'ponerem', $instance['padding'] ) ?>><?php _e( '1 rem/10px', 'fsiw' ); ?></option>
+				<option value="poneandhalfrem" <?php selected( 'poneandhalfrem', $instance['padding'] ) ?>><?php _e( '1.5rem/15px', 'fsiw' ); ?></option>
+				<option value="ptworem" <?php selected( 'ptworem', $instance['padding'] ) ?>><?php _e( '2rem/20px', 'fsiw' ); ?></option>
+				<option value="pthreerem" <?php selected( 'pthreerem', $instance['padding'] ) ?>><?php _e( '3rem/30px', 'fsiw' ); ?></option>
+				<option value="pfourrem" <?php selected( 'pfourrem', $instance['padding'] ) ?>><?php _e( '4rem/40px', 'fsiw' ); ?></option>
+				<option value="pfiverem" <?php selected( 'pfiverem', $instance['padding'] ) ?>><?php _e( '5rem/50px', 'fsiw' ); ?></option>
 				?>
 			</select>
 		</p>
@@ -340,7 +354,7 @@ class Font_Social_Icons_Widget extends WP_Widget {
 			}
 
 			if ( $output )
-				printf( '<ul class="%s %s %s %s">%s</ul>', $instance['color_scheme'], $instance['alignment'], $instance['size'], $instance['padding'], $output );
+				printf( '<ul class="%s %s %s %s %s">%s</ul>', $instance['color_scheme'], $instance['line_height'], $instance['alignment'], $instance['size'], $instance['padding'], $output );
 
 		echo $after_widget;
 

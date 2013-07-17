@@ -1,0 +1,264 @@
+@font-face{font-family:"SocialFoundicons";src:url("fonts/social_foundicons.eot");src:url("fonts/social_foundicons.eot?#iefix") format("embedded-opentype"), url("fonts/social_foundicons.woff") format("woff"), url("fonts/social_foundicons.ttf") format("truetype"), url("fonts/social_foundicons.svg#SocialFoundicons") format("svg");font-weight:normal;font-style:normal;}
+.font-social-icons{overflow:hidden;}
+.font-social-icons li{float:left;list-style-type:none;margin-bottom:0 !important;}
+.font-social-icons a{float:left;text-decoration:none;}
+.font-social-icons .onelh a{line-height:1;}
+.font-social-icons .oneandahalflh a{line-height:1.5;}
+.font-social-icons .twolh a{line-height:2;}
+.font-social-icons .onerem a{font-size:10px;font-size:1.0rem;}
+.font-social-icons .onelh.onerem.square a{padding:0 1;padding:0 0.05rem;}
+.font-social-icons .oneandahalflh.onerem.square a{padding:0 3px;padding:0 0.30rem;}
+.font-social-icons .twolh.onerem.square a{padding:0 6px;padding:0 0.55rem;}
+.font-social-icons .oneandhalfrem a{font-size:15px;font-size:1.5rem;}
+.font-social-icons .onelh.oneandhalfrem.square a{padding:0 1px;padding:0 0.1rem;}
+.font-social-icons .oneandahalflh.oneandhalfrem.square a{padding:0 4px;padding:0 0.4rem;}
+.font-social-icons .twolh.oneandhalfrem.square a{padding:0 8px;padding:0 0.8rem;}
+.font-social-icons .tworem a{font-size:20px;font-size:2rem;}
+.font-social-icons .onelh.tworem.square a{padding:0 2px;padding:0 0.15rem;}
+.font-social-icons .oneandahalflh.tworem.square a{padding:0 7px;padding:0 0.65rem;}
+.font-social-icons .twolh.tworem.square a{padding:0 12px;padding:0 1.15rem;}
+.font-social-icons .threerem a{font-size:30px;font-size:3rem;}
+.font-social-icons .onelh.threerem.square a{padding:0 2px;padding:0 0.2rem;}
+.font-social-icons .oneandahalflh.threerem.square a{padding:0 10px;padding:0 0.95rem;}
+.font-social-icons .twolh.threerem.square a{padding:0 17px;padding:0 1.7rem;}
+.font-social-icons .fourrem a{font-size:40px;font-size:4rem;}
+.font-social-icons .onelh.fourrem.square a{padding:0 3px;padding:0 0.25rem;}
+.font-social-icons .oneandahalflh.fourrem.square a{padding:0 13px;padding:0 1.25rem;}
+.font-social-icons .twolh.fourrem.square a{padding:0 23px;padding:0 2.25rem;}
+.font-social-icons .fiverem a{font-size:50px;font-size:5rem;}
+.font-social-icons .onelh.fiverem.square a{padding:0 3px;padding:0 0.3rem;}
+.font-social-icons .oneandahalflh.fiverem.square a{padding:0 16px;padding:0 1.55rem;}
+.font-social-icons .twolh.fiverem.square a{padding:0 28px;padding:0 2.8rem;}
+.font-social-icons .ponerem a{padding:10px;padding:1.0rem;}
+.font-social-icons .poneandhalfrem a{padding:15px;padding:1.5rem;}
+.font-social-icons .ptworem a{padding:20px;padding:2rem;}
+.font-social-icons .pthreerem a{padding:30px;padding:3rem;}
+.font-social-icons .pfourrem a{padding:40px;padding:4rem;}
+.font-social-icons .pfiverem a{padding:50px;padding:5rem;}
+[class*="foundicon-"]{display:inline;width:auto;height:auto;line-height:inherit;vertical-align:baseline;background-image:none;background-position:0 0;background-repeat:repeat;}
+[class*="foundicon-"]:before{font-family:"SocialFoundicons";font-weight:normal;font-style:normal;text-decoration:inherit;}
+.font-social-icons .foundicon-rss:before{content:"\f002";}
+.font-social-icons .foundicon-facebook:before{content:"\f003";}
+.font-social-icons .foundicon-twitter:before{content:"\f004";}
+.font-social-icons .foundicon-linkedin:before{content:"\f008";}
+.font-social-icons .foundicon-google-plus:before{content:"\f00d";}
+.font-social-icons .foundicon-pinterest:before{content:"\f005";}
+.font-social-icons .foundicon-youtube:before{content:"\f00e";}
+.font-social-icons .foundicon-vimeo:before{content:"\f00f";}
+.font-social-icons .foundicon-tumblr:before{content:"\f01a";}
+.font-social-icons .foundicon-github:before{content:"\f006";}
+.font-social-icons .foundicon-path:before{content:"\f007";}
+.font-social-icons .foundicon-dribbble:before{content:"\f009";}
+.font-social-icons .foundicon-stumble-upon:before{content:"\f00a";}
+.font-social-icons .foundicon-behance:before{content:"\f00b";}
+.font-social-icons .foundicon-reddit:before{content:"\f00c";}
+.font-social-icons .foundicon-flickr:before{content:"\f010";}
+.font-social-icons .foundicon-slideshare:before{content:"\f011";}
+.font-social-icons .foundicon-picassa:before{content:"\f012";}
+.font-social-icons .foundicon-skype:before{content:"\f013";}
+.font-social-icons .foundicon-steam:before{content:"\f014";}
+.font-social-icons .foundicon-instagram:before{content:"\f015";}
+.font-social-icons .foundicon-foursquare:before{content:"\f016";}
+.font-social-icons .foundicon-delicious:before{content:"\f017";}
+.font-social-icons .foundicon-digg:before{content:"\f01c";}
+.font-social-icons .foundicon-wordpress:before{content:"\f01d";}
+.font-social-icons .grayscale .foundicon-rss:before,
+.font-social-icons .grayscale .foundicon-facebook:before,
+.font-social-icons .grayscale .foundicon-twitter:before,
+.font-social-icons .grayscale .foundicon-linkedin:before,
+.font-social-icons .grayscale .foundicon-google-plus:before,
+.font-social-icons .grayscale .foundicon-pinterest:before,
+.font-social-icons .grayscale .foundicon-youtube:before,
+.font-social-icons .grayscale .foundicon-vimeo:before,
+.font-social-icons .grayscale .foundicon-tumblr:before,
+.font-social-icons .grayscale .foundicon-github:before,
+.font-social-icons .grayscale .foundicon-path:before,
+.font-social-icons .grayscale .foundicon-dribbble:before,
+.font-social-icons .grayscale .foundicon-stumble-upon:before,
+.font-social-icons .grayscale .foundicon-behance:before,
+.font-social-icons .grayscale .foundicon-reddit:before,
+.font-social-icons .grayscale .foundicon-flickr:before,
+.font-social-icons .grayscale .foundicon-slideshare:before,
+.font-social-icons .grayscale .foundicon-picassa:before,
+.font-social-icons .grayscale .foundicon-skype:before,
+.font-social-icons .grayscale .foundicon-steam:before,
+.font-social-icons .grayscale .foundicon-instagram:before,
+.font-social-icons .grayscale .foundicon-foursquare:before,
+.font-social-icons .grayscale .foundicon-delicious:before,
+.font-social-icons .grayscale .foundicon-digg:before,
+.font-social-icons .grayscale .foundicon-wordpress:before{color:#999999;}
+.font-social-icons .grayscale .foundicon-rss:hover:before,
+.font-social-icons .grayscale .foundicon-facebook:hover:before,
+.font-social-icons .grayscale .foundicon-twitter:hover:before,
+.font-social-icons .grayscale .foundicon-linkedin:hover:before,
+.font-social-icons .grayscale .foundicon-google-plus:hover:before,
+.font-social-icons .grayscale .foundicon-pinterest:hover:before,
+.font-social-icons .grayscale .foundicon-youtube:hover:before,
+.font-social-icons .grayscale .foundicon-vimeo:hover:before,
+.font-social-icons .grayscale .foundicon-tumblr:hover:before,
+.font-social-icons .grayscale .foundicon-github:hover:before,
+.font-social-icons .grayscale .foundicon-path:hover:before,
+.font-social-icons .grayscale .foundicon-dribbble:hover:before,
+.font-social-icons .grayscale .foundicon-stumble-upon:hover:before,
+.font-social-icons .grayscale .foundicon-behance:hover:before,
+.font-social-icons .grayscale .foundicon-reddit:hover:before,
+.font-social-icons .grayscale .foundicon-flickr:hover:before,
+.font-social-icons .grayscale .foundicon-slideshare:hover:before,
+.font-social-icons .grayscale .foundicon-picassa:hover:before,
+.font-social-icons .grayscale .foundicon-skype:hover:before,
+.font-social-icons .grayscale .foundicon-steam:hover:before,
+.font-social-icons .grayscale .foundicon-instagram:hover:before,
+.font-social-icons .grayscale .foundicon-foursquare:hover:before,
+.font-social-icons .grayscale .foundicon-delicious:hover:before,
+.font-social-icons .grayscale .foundicon-digg:hover:before,
+.font-social-icons .grayscale .foundicon-wordpress:hover:before{color:#ffffff;}
+.font-social-icons .grayscale li a.foundicon-rss:hover,
+.font-social-icons .grayscale li a.foundicon-facebook:hover,
+.font-social-icons .grayscale li a.foundicon-twitter:hover,
+.font-social-icons .grayscale li a.foundicon-linkedin:hover,
+.font-social-icons .grayscale li a.foundicon-google-plus:hover,
+.font-social-icons .grayscale li a.foundicon-pinterest:hover,
+.font-social-icons .grayscale li a.foundicon-youtube:hover,
+.font-social-icons .grayscale li a.foundicon-vimeo:hover,
+.font-social-icons .grayscale li a.foundicon-tumblr:hover,
+.font-social-icons .grayscale li a.foundicon-github:hover,
+.font-social-icons .grayscale li a.foundicon-path:hover,
+.font-social-icons .grayscale li a.foundicon-dribbble:hover,
+.font-social-icons .grayscale li a.foundicon-stumble-upon:hover,
+.font-social-icons .grayscale li a.foundicon-behance:hover,
+.font-social-icons .grayscale li a.foundicon-reddit:hover,
+.font-social-icons .grayscale li a.foundicon-flickr:hover,
+.font-social-icons .grayscale li a.foundicon-slideshare:hover,
+.font-social-icons .grayscale li a.foundicon-picassa:hover,
+.font-social-icons .grayscale li a.foundicon-skype:hover,
+.font-social-icons .grayscale li a.foundicon-steam:hover,
+.font-social-icons .grayscale li a.foundicon-instagram:hover,
+.font-social-icons .grayscale li a.foundicon-foursquare:hover,
+.font-social-icons .grayscale li a.foundicon-delicious:hover,
+.font-social-icons .grayscale li a.foundicon-digg:hover,
+.font-social-icons .grayscale li a.foundicon-wordpress:hover{background:#666666;}
+.font-social-icons .colorful .foundicon-rss:before{color:#fa9b39;}
+.font-social-icons .colorful .foundicon-facebook:before{color:#3b5998;}
+.font-social-icons .colorful .foundicon-twitter:before{color:#00a0d1;}
+.font-social-icons .colorful .foundicon-linkedin:before{color:#0073b2;}
+.font-social-icons .colorful .foundicon-google-plus:before{color:#d64736;}
+.font-social-icons .colorful .foundicon-pinterest:before{color:#910101;}
+.font-social-icons .colorful .foundicon-youtube:before{color:#c4302b;}
+.font-social-icons .colorful .foundicon-vimeo:before{color:#44bbff;}
+.font-social-icons .colorful .foundicon-tumblr:before{color:#34526f;}
+.font-social-icons .colorful .foundicon-github:before{color:#4d4d4d;}
+.font-social-icons .colorful .foundicon-path:before{color:#e41f11;}
+.font-social-icons .colorful .foundicon-dribbble:before{color:#f771a2;}
+.font-social-icons .colorful .foundicon-stumble-upon:before{color:#ea4a24;}
+.font-social-icons .colorful .foundicon-behance:before{color:#389dff;}
+.font-social-icons .colorful .foundicon-reddit:before{color:#c3d9ed;}
+.font-social-icons .colorful .foundicon-flickr:before{color:#0063dc;}
+.font-social-icons .colorful .foundicon-slideshare:before{color:#eb9c41;}
+.font-social-icons .colorful .foundicon-picassa:before{color:#9b479f;}
+.font-social-icons .colorful .foundicon-skype:before{color:#00aff0;}
+.font-social-icons .colorful .foundicon-steam:before{color:#acaba8;}
+.font-social-icons .colorful .foundicon-instagram:before{color:#ad967f;}
+.font-social-icons .colorful .foundicon-foursquare:before{color:#1486c0;}
+.font-social-icons .colorful .foundicon-delicious:before{color:#285da7;}
+.font-social-icons .colorful .foundicon-digg:before{color:#000000;}
+.font-social-icons .colorful .foundicon-wordpress:before{color:#21759b;}
+.font-social-icons .colorful .foundicon-rss:hover:before,
+.font-social-icons .colorful .foundicon-facebook:hover:before,
+.font-social-icons .colorful .foundicon-twitter:hover:before,
+.font-social-icons .colorful .foundicon-linkedin:hover:before,
+.font-social-icons .colorful .foundicon-google-plus:hover:before,
+.font-social-icons .colorful .foundicon-pinterest:hover:before,
+.font-social-icons .colorful .foundicon-youtube:hover:before,
+.font-social-icons .colorful .foundicon-vimeo:hover:before,
+.font-social-icons .colorful .foundicon-tumblr:hover:before,
+.font-social-icons .colorful .foundicon-github:hover:before,
+.font-social-icons .colorful .foundicon-path:hover:before,
+.font-social-icons .colorful .foundicon-dribbble:hover:before,
+.font-social-icons .colorful .foundicon-stumble-upon:hover:before,
+.font-social-icons .colorful .foundicon-behance:hover:before,
+.font-social-icons .colorful .foundicon-reddit:hover:before,
+.font-social-icons .colorful .foundicon-flickr:hover:before,
+.font-social-icons .colorful .foundicon-slideshare:hover:before,
+.font-social-icons .colorful .foundicon-picassa:hover:before,
+.font-social-icons .colorful .foundicon-skype:hover:before,
+.font-social-icons .colorful .foundicon-steam:hover:before,
+.font-social-icons .colorful .foundicon-instagram:hover:before,
+.font-social-icons .colorful .foundicon-foursquare:hover:before,
+.font-social-icons .colorful .foundicon-delicious:hover:before,
+.font-social-icons .colorful .foundicon-digg:hover:before,
+.font-social-icons .colorful .foundicon-wordpress:hover:before{color:#ffffff;}
+.font-social-icons .colorful li a.foundicon-rss:hover{background:#fa9b39;}
+.font-social-icons .colorful li a.foundicon-facebook:hover{background:#3b5998;}
+.font-social-icons .colorful li a.foundicon-twitter:hover{background:#00a0d1;}
+.font-social-icons .colorful li a.foundicon-linkedin:hover{background:#0073b2;}
+.font-social-icons .colorful li a.foundicon-google-plus:hover{background:#d64736;}
+.font-social-icons .colorful li a.foundicon-pinterest:hover{background:#910101;}
+.font-social-icons .colorful li a.foundicon-youtube:hover{background:#c4302b;}
+.font-social-icons .colorful li a.foundicon-vimeo:hover{background:#44bbff;}
+.font-social-icons .colorful li a.foundicon-tumblr:hover{background:#34526f;}
+.font-social-icons .colorful li a.foundicon-github:hover{background:#4d4d4d;}
+.font-social-icons .colorful li a.foundicon-path:hover{background:#e41f11;}
+.font-social-icons .colorful li a.foundicon-dribbble:hover{background:#f771a2;}
+.font-social-icons .colorful li a.foundicon-stumble-upon:hover{background:#ea4a24;}
+.font-social-icons .colorful li a.foundicon-behance:hover{background:#389dff;}
+.font-social-icons .colorful li a.foundicon-reddit:hover{background:#c3d9ed;}
+.font-social-icons .colorful li a.foundicon-flickr:hover{background:#0063dc;}
+.font-social-icons .colorful li a.foundicon-slideshare:hover{background:#eb9c41;}
+.font-social-icons .colorful li a.foundicon-picassa:hover{background:#9b479f;}
+.font-social-icons .colorful li a.foundicon-skype:hover{background:#00aff0;}
+.font-social-icons .colorful li a.foundicon-steam:hover{background:#acaba8;}
+.font-social-icons .colorful li a.foundicon-instagram:hover{background:#ad967f;}
+.font-social-icons .colorful li a.foundicon-foursquare:hover{background:#1486c0;}
+.font-social-icons .colorful li a.foundicon-delicious:hover{background:#285da7;}
+.font-social-icons .colorful li a.foundicon-digg:hover{background:#000000;}
+.font-social-icons .colorful li a.foundicon-wordpress:hover{background:#21759b;}
+.font-social-icons .graytocolor .foundicon-rss:before,
+.font-social-icons .graytocolor .foundicon-facebook:before,
+.font-social-icons .graytocolor .foundicon-twitter:before,
+.font-social-icons .graytocolor .foundicon-linkedin:before,
+.font-social-icons .graytocolor .foundicon-google-plus:before,
+.font-social-icons .graytocolor .foundicon-pinterest:before,
+.font-social-icons .graytocolor .foundicon-youtube:before,
+.font-social-icons .graytocolor .foundicon-vimeo:before,
+.font-social-icons .graytocolor .foundicon-tumblr:before,
+.font-social-icons .graytocolor .foundicon-github:before,
+.font-social-icons .graytocolor .foundicon-path:before,
+.font-social-icons .graytocolor .foundicon-dribbble:before,
+.font-social-icons .graytocolor .foundicon-stumble-upon:before,
+.font-social-icons .graytocolor .foundicon-behance:before,
+.font-social-icons .graytocolor .foundicon-reddit:before,
+.font-social-icons .graytocolor .foundicon-flickr:before,
+.font-social-icons .graytocolor .foundicon-slideshare:before,
+.font-social-icons .graytocolor .foundicon-picassa:before,
+.font-social-icons .graytocolor .foundicon-skype:before,
+.font-social-icons .graytocolor .foundicon-steam:before,
+.font-social-icons .graytocolor .foundicon-instagram:before,
+.font-social-icons .graytocolor .foundicon-foursquare:before,
+.font-social-icons .graytocolor .foundicon-delicious:before,
+.font-social-icons .graytocolor .foundicon-digg:before,
+.font-social-icons .graytocolor .foundicon-wordpress:before{color:#999999;}
+.font-social-icons .graytocolor .foundicon-rss:hover:before{color:#fa9b39;}
+.font-social-icons .graytocolor .foundicon-facebook:hover:before{color:#3b5998;}
+.font-social-icons .graytocolor .foundicon-twitter:hover:before{color:#00a0d1;}
+.font-social-icons .graytocolor .foundicon-linkedin:hover:before{color:#0073b2;}
+.font-social-icons .graytocolor .foundicon-google-plus:hover:before{color:#d64736;}
+.font-social-icons .graytocolor .foundicon-pinterest:hover:before{color:#910101;}
+.font-social-icons .graytocolor .foundicon-youtube:hover:before{color:#c4302b;}
+.font-social-icons .graytocolor .foundicon-vimeo:hover:before{color:#44bbff;}
+.font-social-icons .graytocolor .foundicon-tumblr:hover:before{color:#34526f;}
+.font-social-icons .graytocolor .foundicon-github:hover:before{color:#4d4d4d;}
+.font-social-icons .graytocolor .foundicon-path:hover:before{color:#e41f11;}
+.font-social-icons .graytocolor .foundicon-dribbble:hover:before{color:#f771a2;}
+.font-social-icons .graytocolor .foundicon-stumble-upon:hover:before{color:#ea4a24;}
+.font-social-icons .graytocolor .foundicon-behance:hover:before{color:#389dff;}
+.font-social-icons .graytocolor .foundicon-reddit:hover:before{color:#c3d9ed;}
+.font-social-icons .graytocolor .foundicon-flickr:hover:before{color:#0063dc;}
+.font-social-icons .graytocolor .foundicon-slideshare:hover:before{color:#eb9c41;}
+.font-social-icons .graytocolor .foundicon-picassa:hover:before{color:#9b479f;}
+.font-social-icons .graytocolor .foundicon-skype:hover:before{color:#00aff0;}
+.font-social-icons .graytocolor .foundicon-steam:hover:before{color:#acaba8;}
+.font-social-icons .graytocolor .foundicon-instagram:hover:before{color:#ad967f;}
+.font-social-icons .graytocolor .foundicon-foursquare:hover:before{color:#1486c0;}
+.font-social-icons .graytocolor .foundicon-delicious:hover:before{color:#285da7;}
+.font-social-icons .graytocolor .foundicon-digg:hover:before{color:#000000;}
+.font-social-icons .graytocolor .foundicon-wordpress:hover:before{color:#21759b;}

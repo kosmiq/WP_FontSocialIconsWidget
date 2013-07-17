@@ -17,79 +17,153 @@
 .font-social-icons a {
   float: left;
   text-decoration: none;
+}
+
+/* Line height */
+.font-social-icons .onelh a {
+  line-height: 1;
+}
+.font-social-icons .oneandahalflh a {
   line-height: 1.5;
+}
+.font-social-icons .twolh a {
+  line-height: 2;
 }
 
 /* Font size and square padding */
 .font-social-icons .onerem a {
-  font-size: 16px;
+  font-size: 10px;
   font-size: 1.0rem;
 }
-.font-social-icons .onerem.square a {
-  padding: 0 4px;
-  padding: 0 0.25rem;
+.font-social-icons .onelh.onerem.square a {
+  padding: 0 1;
+  padding: 0 0.05rem;
+}
+.font-social-icons .oneandahalflh.onerem.square a {
+  padding: 0 3px;
+  padding: 0 0.30rem;
+}
+.font-social-icons .twolh.onerem.square a {
+  padding: 0 6px;
+  padding: 0 0.55rem;
 }
 
+
 .font-social-icons .oneandhalfrem a {
-  font-size: 24px;
+  font-size: 15px;
   font-size: 1.5rem;
 }
-.font-social-icons .oneandhalfrem.square a {
-  padding: 0 6px;
-  padding: 0 0.375rem;
+.font-social-icons .onelh.oneandhalfrem.square a {
+  padding: 0 1px;
+  padding: 0 0.1rem;
+}
+.font-social-icons .oneandahalflh.oneandhalfrem.square a {
+  padding: 0 4px;
+  padding: 0 0.4rem;
+}
+.font-social-icons .twolh.oneandhalfrem.square a {
+  padding: 0 8px;
+  padding: 0 0.8rem;
 }
 
 .font-social-icons .tworem a {
-  font-size: 32px;
+  font-size: 20px;
   font-size: 2rem;
 }
-.font-social-icons .tworem.square a {
-  padding: 0 8px;
-  padding: 0 0.5rem;
+.font-social-icons .onelh.tworem.square a {
+  padding: 0 2px;
+  padding: 0 0.15rem;
+}
+.font-social-icons .oneandahalflh.tworem.square a {
+  padding: 0 7px;
+  padding: 0 0.65rem;
+}
+.font-social-icons .twolh.tworem.square a {
+  padding: 0 12px;
+  padding: 0 1.15rem;
 }
 
 .font-social-icons .threerem a {
-  font-size: 48px;
+  font-size: 30px;
   font-size: 3rem;
 }
-.font-social-icons .threerem.square a {
-  padding: 0 12px;
-  padding: 0 0.75rem;
+.font-social-icons .onelh.threerem.square a {
+  padding: 0 2px;
+  padding: 0 0.2rem;
+}
+.font-social-icons .oneandahalflh.threerem.square a {
+  padding: 0 10px;
+  padding: 0 0.95rem;
+}
+.font-social-icons .twolh.threerem.square a {
+  padding: 0 17px;
+  padding: 0 1.7rem;
 }
 
 .font-social-icons .fourrem a {
-  font-size: 64px;
+  font-size: 40px;
   font-size: 4rem;
 }
-.font-social-icons .fourrem.square a {
-  padding: 0 16px;
-  padding: 0 1rem;
+.font-social-icons .onelh.fourrem.square a {
+  padding: 0 3px;
+  padding: 0 0.25rem;
+}
+.font-social-icons .oneandahalflh.fourrem.square a {
+  padding: 0 13px;
+  padding: 0 1.25rem;
+}
+.font-social-icons .twolh.fourrem.square a {
+  padding: 0 23px;
+  padding: 0 2.25rem;
 }
 
-/* Other padding selected from list */
+
+.font-social-icons .fiverem a {
+  font-size: 50px;
+  font-size: 5rem;
+}
+.font-social-icons .onelh.fiverem.square a {
+  padding: 0 3px;
+  padding: 0 0.3rem;
+}
+.font-social-icons .oneandahalflh.fiverem.square a {
+  padding: 0 16px;
+  padding: 0 1.55rem;
+}
+.font-social-icons .twolh.fiverem.square a {
+  padding: 0 28px;
+  padding: 0 2.8rem;
+}
+
+
 .font-social-icons .ponerem a {
-  padding: 16px;
+  padding: 10px;
   padding: 1.0rem;
 }
 
 .font-social-icons .poneandhalfrem a {
-  padding: 24px;
+  padding: 15px;
   padding: 1.5rem;
 }
 
 .font-social-icons .ptworem a {
-  padding: 32px;
+  padding: 20px;
   padding: 2rem;
 }
 
 .font-social-icons .pthreerem a {
-  padding: 48px;
+  padding: 30px;
   padding: 3rem;
 }
 
 .font-social-icons .pfourrem a {
-  padding: 64px;
+  padding: 40px;
   padding: 4rem;
+}
+
+.font-social-icons .pfiverem a {
+  padding: 50px;
+  padding: 5rem;
 }
 
 /* global foundicon styles */
